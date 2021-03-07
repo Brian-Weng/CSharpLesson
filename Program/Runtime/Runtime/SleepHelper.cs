@@ -14,7 +14,7 @@ namespace MeasureSpeed
         public static void SleepAWhile(int second)
         {
 
-            int ms = second * 1000; //second 預設為毫秒 * 1000變為秒
+            int ms = second * 1000 * 2; //second 預設為毫秒 * 1000變為秒
 
             System.Threading.Thread.Sleep(ms); //讓執行續暫停幾秒ig.輸入3-> 3毫秒*1000=3000毫秒 -> 3秒
         }
